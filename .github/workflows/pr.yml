@@ -44,7 +44,7 @@ jobs:
 #          go-version: ${{ env.GO_VERSION }} # todo(ldez) uncomment after the next release v1.48.0
           go-version: 1.18
       - name: lint
-        uses: golangci/golangci-lint-action@v3.2.0
+        uses: golangci/golangci-lint-action@v3.6.0
         with:
           version: latest
           # skip cache because of flaky behaviors
