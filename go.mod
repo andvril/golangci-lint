@@ -1,6 +1,6 @@
 module github.com/anduril/golangci-lint
 
-go 1.19
+go 1.26.0
 
 require (
 	4d63.com/gochecknoglobals v0.1.0
@@ -49,7 +49,7 @@ require (
 	github.com/jingyugao/rowserrcheck v1.1.1
 	github.com/jirfag/go-printf-func-name v0.0.0-20200119135958-7558a9eaa5af
 	github.com/julz/importas v0.1.0
-	github.com/kisielk/errcheck v1.6.2
+	github.com/kisielk/errcheck v1.30.0
 	github.com/kulti/thelper v0.6.3
 	github.com/kunwardeep/paralleltest v1.0.6
 	github.com/kyoh86/exportloopref v0.1.8
@@ -102,7 +102,7 @@ require (
 	github.com/yagipy/maintidx v1.0.0
 	github.com/yeya24/promlinter v0.2.0
 	gitlab.com/bosi/decorder v0.2.3
-	golang.org/x/tools v0.1.12
+	golang.org/x/tools v0.51.0
 	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.3.3
 	mvdan.cc/gofumpt v0.3.1
@@ -129,7 +129,7 @@ require (
 	github.com/go-toolsmith/typep v1.0.2 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
 	github.com/gostaticanalysis/comment v1.4.2 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
@@ -171,12 +171,17 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.17.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20220613132600-b0d781184e0d // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/ini.v1 v1.66.6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
+)
+
+require (
+	golang.org/x/tools/go/expect v0.1.1-deprecated // indirect
+	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
 )
